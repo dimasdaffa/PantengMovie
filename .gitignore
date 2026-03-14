@@ -1,0 +1,39 @@
+# macOS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# SwiftPM build artifacts
+.build/
+.buildcheckouts/
+.swiftpm/xcode/packagedescription/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Xcode user-specific state
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+*.moved-aside
+DerivedData/
+
+# Build output
+build/
+Build/
+
+# Secrets / local config
+PantengMovie/APIConfig.json
+PantengMovie/APIConfig.local.json
+PantengMovie/APIConfig.dev.json
+PantengMovie/APIConfig.swift.bak
+
+# Logs / diagnostics
+*.log
+fastlane/report.xml
+fastlane/[0-9]*.png
+fastlane/test_output/
+
+# Misc tooling
+.idea/
+.vscode/
+*.swp
